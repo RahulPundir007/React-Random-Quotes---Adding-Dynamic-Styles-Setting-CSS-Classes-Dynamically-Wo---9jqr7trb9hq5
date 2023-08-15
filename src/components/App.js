@@ -34,6 +34,7 @@ const App = () => {
   }, []);
   
     return (
+      quote === null ? null :
       <div id="main">
         <div id="wrapper">
           <div className="quote-text">
