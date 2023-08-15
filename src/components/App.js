@@ -32,7 +32,7 @@ const App = () => {
   useEffect(() => {
     getQuote();
   }, []);
-  if (quote)
+  
     return (
       <div id="main">
         <div id="wrapper">
